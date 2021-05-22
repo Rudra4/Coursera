@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#header-nav {
+  background-color: #707070;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.mainp{
+  font-size: 2em;
+  font-weight: bold;
+}
+.divh{
+  font-weight: bold;
+  text-align: center;
+}
+#beef, #chicken, #sushi{
+  background-color: #707070;
+  color: #000;
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 1000px;
+  position: relative;
+}
+#mylink{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
